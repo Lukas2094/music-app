@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #0b3541;
+}
+
+.music-app {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.music-controls {
+  margin: 20px;
+}
+
+.control-btn {
+  font-size: 35px;
+  margin: 0 10px;
+  padding: 5px;
+  
+  display: inline-flex;
+  align-items: center;
+}
+
+.progress-bar-container {
+  width: 80%;
+  height: 15px;
+  background-color: #ddd;
+  margin: 20px auto;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: black;
+}
+
+.time-labels {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+
